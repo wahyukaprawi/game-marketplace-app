@@ -1,8 +1,8 @@
-# Gaming Marketplace App
+# Game Marketplace App
 
 ![UI Preview](images/preview_ui.png)
 
-Welcome to the Gaming Marketplace App!
+Welcome to the Game Marketplace App!
 
 This project is a starting point for a Flutter application, designed to create a digital marketplace for buying and selling gaming-related products. Follow the steps below to get started.
 
