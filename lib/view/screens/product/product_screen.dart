@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gaming_marketplace_app/view/screens/product/widget/cust_detail_product.dart';
+import 'package:gaming_marketplace_app/view/screens/product/widget/cust_review_item.dart';
 import 'package:gaming_marketplace_app/view/screens/review/review_screen.dart';
 
 import '../../../utils/assert_image.dart';
@@ -158,6 +159,44 @@ class _ProductScreenState extends State<ProductScreen> {
                       ),
                     ],
                   ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20),
+              child: Column(
+                children: [
+                  CustReviewItem(
+                    imageProfilUser: AssetImage(imgProfilUser1),
+                    name: 'Anisa Rahman',
+                    rating: 4,
+                    reviews:
+                        'Kontrolernya nyaman dipakai lama, baterainya awet, dan sensor geraknya responsif. Pairing awal agak lambat.',
+                    date: '2 Minggu yang lalu',
+                  ),
+                  SizedBox(
+              height: 20,
+            ),
+                  CustReviewItem(
+                      imageProfilUser: AssetImage(imgProfilUser2),
+                      name: 'Cristopher Devin',
+                      rating: 3,
+                      reviews:
+                          'Desainnya bagus, tapi koneksi wireless di PC kadang lag. Tombol-tombolnya kurang kokoh.',
+                      date: '1 Bulan yang lalu',),
+                      SizedBox(
+              height: 20,
+            ),
+                      CustReviewItem(
+                      imageProfilUser: AssetImage(imgProfilUser3),
+                      name: 'Fajar Pratama',
+                      rating: 4,
+                      reviews:
+                          'Desainnya bagus, tapi koneksi wireless di PC kadang lag. Tombol-tombolnya kurang kokoh.',
+                      date: '2 Bulan yang lalu'),
                 ],
               ),
             ),

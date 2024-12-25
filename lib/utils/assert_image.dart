@@ -35,3 +35,6 @@ const imgDetailNews4 = 'images/img_detail_news4.png';
 const imgDetailNews5 = 'images/img_detail_news5.png';
 const imgDetailProduct3 = 'images/img_detail_product3.png';
 const imgProfileShop1 = 'images/img_profile_shop1.png';
+const imgProfilUser1 = 'images/img_profil_user1.png';
+const imgProfilUser2 = 'images/img_profil_user2.png';
+const imgProfilUser3 = 'images/img_profil_user3.png';
