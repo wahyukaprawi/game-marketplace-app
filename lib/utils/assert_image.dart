@@ -38,3 +38,5 @@ const imgProfileShop1 = 'images/img_profile_shop1.png';
 const imgProfilUser1 = 'images/img_profil_user1.png';
 const imgProfilUser2 = 'images/img_profil_user2.png';
 const imgProfilUser3 = 'images/img_profil_user3.png';
+const imgProfilUser4 = 'images/img_profil_user4.png';
+const imgProfilUser5 = 'images/img_profil_user5.png';

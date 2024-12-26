@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CustStarRating extends StatelessWidget {
-  final double rating; // Rating value from 0.0 to 5.0
-  final double size; // Size of the stars
-  final Color color; // Color of the stars
-  final Color backgroundColor; // Color of the empty stars
+  final double rating;
+  final double size;
+  final Color color;
+  final Color backgroundColor; 
 
   const CustStarRating({
     super.key,
@@ -19,7 +19,7 @@ class CustStarRating extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: List.generate(5, (index) {
-        double starFill = rating - index; // Determine fill for each star
+        double starFill = rating - index;
         if (starFill >= 1) {
           // Full star
           return Icon(
@@ -28,14 +28,12 @@ class CustStarRating extends StatelessWidget {
             color: color,
           );
         } else if (starFill > 0) {
-          // Partial star
           return Icon(
             Icons.star_half,
             size: size,
             color: color,
           );
         } else {
-          // Empty star
           return Icon(
             Icons.star_border,
             size: size,

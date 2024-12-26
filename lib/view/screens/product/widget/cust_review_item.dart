@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../utils/cust_star_rating.dart';
+import '../../../basewidget/cust_star_rating.dart';
 
 // ignore: must_be_immutable
 class CustReviewItem extends StatefulWidget {
@@ -63,7 +63,10 @@ class _CustReviewItemState extends State<CustReviewItem> {
             const Spacer(),
             Text(
               widget.date,
-              style: const TextStyle(fontSize: 15, color: Color(0xFF838589)),
+              style: const TextStyle(
+                fontSize: 15,
+                color: Color(0xFF838589),
+              ),
             ),
           ],
         ),

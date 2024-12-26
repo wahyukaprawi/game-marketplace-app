@@ -178,25 +178,27 @@ class _ProductScreenState extends State<ProductScreen> {
                     date: '2 Minggu yang lalu',
                   ),
                   SizedBox(
-              height: 20,
-            ),
+                    height: 20,
+                  ),
                   CustReviewItem(
-                      imageProfilUser: AssetImage(imgProfilUser2),
-                      name: 'Cristopher Devin',
-                      rating: 3,
-                      reviews:
-                          'Desainnya bagus, tapi koneksi wireless di PC kadang lag. Tombol-tombolnya kurang kokoh.',
-                      date: '1 Bulan yang lalu',),
-                      SizedBox(
-              height: 20,
-            ),
-                      CustReviewItem(
-                      imageProfilUser: AssetImage(imgProfilUser3),
-                      name: 'Fajar Pratama',
-                      rating: 4,
-                      reviews:
-                          'Desainnya bagus, tapi koneksi wireless di PC kadang lag. Tombol-tombolnya kurang kokoh.',
-                      date: '2 Bulan yang lalu'),
+                    imageProfilUser: AssetImage(imgProfilUser2),
+                    name: 'Cristopher Devin',
+                    rating: 3,
+                    reviews:
+                        'Desainnya bagus, tapi koneksi wireless di PC kadang lag. Tombol-tombolnya kurang kokoh.',
+                    date: '1 Bulan yang lalu',
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  CustReviewItem(
+                    imageProfilUser: AssetImage(imgProfilUser3),
+                    name: 'Fajar Pratama',
+                    rating: 4,
+                    reviews:
+                        'Desainnya bagus, tapi koneksi wireless di PC kadang lag. Tombol-tombolnya kurang kokoh.',
+                    date: '2 Bulan yang lalu',
+                  ),
                 ],
               ),
             ),
